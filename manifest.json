@@ -1,0 +1,10 @@
+{
+    "name": "YorkU Quickbar",
+    "version": "1.0",
+    "description": "A customizable bookmark bar for the York University site",
+    "background": {
+        "scripts": ["bar.html"],
+        "persistent": false
+      },
+    "manifest_version": 2
+}
