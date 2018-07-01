@@ -3,3 +3,27 @@
     background-color: #e7e7e7;
     border-bottom: 1px solid darkgray;
 }
+
+.plus-div {
+    padding-left: 30px;
+}
+
+.plus-button {
+    background: none;
+    border-radius: 10%;
+    border: none;
+}
+
+#plus-icon {
+    padding-left: 2px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+
+.plus-button:hover {
+    background-color: orangered;
+}
+
+.plus-button:hover > #plus-icon {
+    color: white;
+}
