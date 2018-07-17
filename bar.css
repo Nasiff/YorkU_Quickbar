@@ -4,26 +4,30 @@
     border-bottom: 1px solid darkgray;
 }
 
-.plus-div {
-    padding-left: 30px;
+#YUicon {
+    margin-right: 4px;
 }
 
 .plus-button {
     background: none;
     border-radius: 10%;
     border: none;
+    height: 30px;
+    width: 30px;
 }
 
 #plus-icon {
-    padding-left: 2px;
-    padding-top: 2px;
     font-size: 20px;
 }
 
 .plus-button:hover {
-    background-color: orangered;
+    background-color: red;
 }
 
 .plus-button:hover > #plus-icon {
     color: white;
+}
+
+.flex-container {
+    display: flex;
 }
