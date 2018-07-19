@@ -15,6 +15,14 @@
                     <img src="YUFavicon.jpg" style="float: left;" id="YUicon">
                 </a>
             </div>
+            <div class="search-bar" style="float: right;">
+                <form>
+                    <input type="text" placeholder="Search YU site" name="search" autocomplete="off">
+                    <button type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
             <div class="flex-container">
                 <div>
                     <!-- The plus button that opens up the modal for adding a bookmark -->
@@ -35,17 +43,19 @@
                         </div>
                         <div class="modal-body">
                             <form>
+                                <!-- The input field for the name of the bookmark -->
                                 <div class="form-group">
                                     <label>Name:</label>
                                     <input class="form-control" id="name" autocomplete="off">
                                 </div>
+                                <!-- The input field for the url of the bookmark -->
                                 <div class="form-group">
                                     <label>URL:</label>
                                     <input class="form-control" id="url" autocomplete="off">
                                 </div>
                             </form>
                         </div>
-                        <!-- The Save and Cancel buttons -->
+                        <!-- The Save and Cancel buttons on the bottom of the modal -->
                         <div class="modal-footer">
                             <button type="button" class="btn btn-primary" id="savebtn">Save</button>
                             <button type="button" class="btn btn-danger" data-dismiss="modal" id="cancelbtn">Cancel</button>
@@ -57,11 +67,12 @@
     </div>
 
     <!-- Scripts, CSS and frameworks -->
-    <link rel="stylesheet" href="bar.css">
-    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bar.css">
+    <link rel="stylesheet" href="modal.css">
     <script type="text/javascript" src="plusbutton.js"></script>
 
 </body>

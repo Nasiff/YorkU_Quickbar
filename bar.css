@@ -1,4 +1,5 @@
 /* The bookmark row */
+
 .row {
     height: 30px;
     background-color: #e7e7e7;
@@ -6,11 +7,13 @@
 }
 
 /* The YU image on the leftmost side of the row */
+
 #YUicon {
     margin-right: 4px;
 }
 
 /* The Plus button that adds new bookmarks */
+
 .plus-button {
     background: none;
     border-radius: 10%;
@@ -20,21 +23,66 @@
 }
 
 /* The icon within the plus button */
+
 #plus-icon {
     font-size: 20px;
 }
 
 /* Change the color of the button to red on hover */
+
 .plus-button:hover {
     background-color: red;
 }
 
 /* Change the color of the plus sign in the button to white on hover */
-.plus-button:hover > #plus-icon {
+
+.plus-button:hover>#plus-icon {
     color: white;
 }
 
 /* A flex container to contain all the bookmarks for easier customization */
+
 .flex-container {
     display: flex;
+}
+
+/* The save button on the Modal that opens up after clicking on the plus button */
+
+#savebtn {
+    width: 75px;
+}
+
+/* The cancel button on the Modal that opens up after clicking on the plus button */
+
+#cancelbtn {
+    width: 75px;
+}
+
+/* The search bar on the right side of bookmark bar */
+
+.search-bar {
+    background: #ddd;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/* Removing the gap between the search bar and the submit button */
+
+.search-bar input {
+    margin-right: -5px;
+}
+
+/* Customizing the submit button */
+
+.search-bar button {
+    height: 30px;
+    background-color: lightblue;
+    border: none;
+}
+
+/* Change the color of the submit button on hover */
+
+.search-bar button:hover {
+    background-color: red;
+    color: white;
 }
