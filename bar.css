@@ -22,6 +22,11 @@
     width: 30px;
 }
 
+/* Remove the blue outline when the button is in focus */
+.plus-button:focus {
+    outline:0;
+}
+
 /* The icon within the plus button */
 
 #plus-icon {
