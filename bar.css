@@ -37,6 +37,7 @@
 
 .plus-button:hover {
     background-color: red;
+    transition: 0.2s;
 }
 
 /* Change the color of the plus sign in the button to white on hover */
@@ -53,19 +54,20 @@
 
 /* The save button on the Modal that opens up after clicking on the plus button */
 
-#savebtn {
+#saveBtn {
     width: 75px;
 }
 
 /* The cancel button on the Modal that opens up after clicking on the plus button */
 
-#cancelbtn {
+#cancelBtn {
     width: 75px;
 }
 
 /* The search bar on the right side of bookmark bar */
 
 .search-bar {
+    display: inline;
     background: #ddd;
     font-size: 17px;
     cursor: pointer;
@@ -90,4 +92,5 @@
 .search-bar button:hover {
     background-color: red;
     color: white;
+    transition: 0.2s;
 }
